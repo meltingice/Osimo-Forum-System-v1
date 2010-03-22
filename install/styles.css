@@ -1,0 +1,125 @@
+body {
+	background: #242424;
+	margin: 0px;
+	padding: 0px;
+}
+		
+#wrap{
+    width: 500px;
+    margin: 50px auto;
+}			
+    
+#osimo-title{
+    width: 460px;
+    text-align:right;
+    margin: 0 auto 0 auto;
+    background: url(img/login-logo.png) no-repeat;
+    padding: 0 0 5px 0;
+}
+#osimo-title h4,#osimo-title p{
+    padding: 0;
+    color: #f8f8f8;
+}
+#osimo-title h4{
+    font-family: Verdana,Arial, sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    margin: 0;
+}
+#osimo-title p{
+    margin: -5px 2px 0 0;
+    font-family: Verdana,Arial, sans-serif;
+    font-size: 14px;
+}	
+.content-wrap{
+    width: 500px;
+    background-color: #f8f8f8;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    overflow: hidden;
+
+}
+.content-wrap h4{
+padding: 0px;
+margin: 10px 0 0 0;
+font-size: 20px;
+font-family: Georgia, Verdana, sans-serif;
+text-align: center;
+color: #478dbe;
+}
+
+.content-wrap p{
+color: #444444;
+padding: 0;
+margin: 5px 10px 5px 10px;
+font-family: Verdana, Arial, sans-serif;
+}
+
+.next-step{
+display:block;
+margin: 10px auto 10px auto;
+width: 150px;
+padding: 4px 0 4px 0;
+font-size: 22px;
+background-color: #478dbe;
+border: 1px #666666 solid;
+-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #ffffff;
+cursor:pointer;
+}
+
+.next-step:hover{
+    border: 1px #e45573 solid;
+    background-color: #4c9cd4;
+}
+
+.next-step[disabled]{
+	opacity: 0.8;
+}
+
+.next-step[disabled]:hover{
+	border: 1px #666666 solid;
+	background-color: #478dbe;
+	cursor:default;
+}
+
+.generic-button{
+
+	margin: 10px;
+	padding: 4px;
+	font-size: 16px;
+	background-color: #478dbe;
+	border: 1px #666666 solid;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #ffffff;
+	cursor:pointer;
+}
+
+.generic-button:hover{
+    border: 1px #e45573 solid;
+    background-color: #4c9cd4;
+}
+
+.input-label{
+	font-size: 12px;
+	margin-bottom: 0px;
+}
+
+.input-field{
+	margin-top: -5px;
+	margin-bottom: 5px;
+	height: 20px;
+	width: 475px;
+	font-size: 16px;
+	color: #444444;
+}
+
+.warning{
+	background-color: #d35f5f;
+	padding: 5px !important;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: #f8f8f8 !important;
+}

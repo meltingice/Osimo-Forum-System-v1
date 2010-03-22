@@ -1,0 +1,368 @@
+big{ font-size: 20px !important; }
+
+#osimo_editprofilebox{
+	width: 635px !important;
+	height: 400px !important;
+	overflow-y:scroll;
+}
+
+.osimo_profile-content h4{
+	font-family: Georgia, Verdana, sans-serif;
+}
+
+#osimo_profile_info,#osimo_profile_contact{
+	background-color: #e6e6e6;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+#osimo_profile_info table,#osimo_profile_contact table{
+	margin: 5px 0 5px 10px;
+	font-size: 14px;
+}
+
+#osimo_profile_info td,#osimo_profile_contact td{
+	padding: 3px 5px 3px 0;
+}
+
+#osimo_profile_info input,#osimo_profile_contact input{
+	width: 350px;
+}
+
+#osimo_profile_bio_container,#osimo_profile_sig_container{
+	width: 620px;
+	background-color: #e6e6e6;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding-bottom: 10px;
+margin-bottom: 10px;
+}
+
+
+
+#osimo_profile_bio p,#osimo_profile_sig p{
+	font-size: 12px;
+	color: #333333;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+#osimo_profile_bio textarea,#osimo_profile_sig textarea{
+	background-color: #444444;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px #c4c4c4 solid;
+	color: #c4c4c4;
+	margin: 0 auto 0 auto;
+	width: 594px;
+	padding: 3px;
+}
+
+#osimo_profile_bio textarea{
+	height: 200px;
+	margin-top: 10px !important;
+}
+
+#osimo_profile_sig textarea{
+	height: 100px;
+}
+
+#osimo_profile_sig_preview{
+	font-size: 14px;
+	border-bottom: 1px #333333 solid;
+	width: 600px;
+	padding-bottom: 10px;
+}
+
+#osimo_profile_sig_preview a{
+	color: #333333;
+	text-decoration: none;
+}
+
+#osimo_profile_sig_preview a:hover{
+	text-decoration: underline;
+}
+
+#osimo_profile_ava_container{
+background-color: #e6e6e6;
+width: 620px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+}
+
+#osimo_profile_ava{ 
+overflow: hidden;
+padding: 10px 0 10px 0;
+}
+
+#osimo_profile_ava_upload{ float: right; width: 300px;}
+
+#osimo_profile_ava_upload p{ color: #444444; font-size: 11px; padding: 4px 0 4px 0;  }
+
+#osimo_profile_ava_image{
+	width: 120px;
+	float: left;
+}
+
+.underline{ text-decoration: underline; }
+
+#memberlist-wrap>p{
+	font-size: 14px;
+	color: #444444;
+	text-align: right;
+	margin: 0px auto 10px auto;
+	background-color: #d2d2d2;
+	padding: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#memberlist{
+	width: 650px;
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+#memberlist td{
+	color: #555555;
+	border-bottom: 1px #c4c4c4 solid;
+	border-right: 1px #c4c4c4 solid;
+	padding: 0px 0 2px 3px;
+}
+
+#memberlist td:last-child{ border-right: none; }
+
+#memberlist tr:hover>td{ background-color: #d6d6d6; }
+
+#memberlist a{
+	text-decoration: none;
+	color: #555555;
+}
+
+#memberlist a:hover{ text-decoration: underline; }
+
+.osimo_memberlist-controls{
+	width: 215px;
+	font-size: 14px;
+	margin: 10px 0 0 210px;
+	background-color: #d4d4d4;
+	padding: 5px 0 5px 0;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+.osimo_memberlist-controls li{
+	display: inline;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.osimo_memberlist-controls li:first-child{
+	padding-left: 8px;
+	-moz-border-radius: 4px 0 0 4px;
+	-webkit-border-radius: 4px 0 0 4px;
+}
+
+.osimo_memberlist-controls li:hover{
+	background-color: #b2b2b2;
+}
+
+.osimo_memberlist-controls li:last-child{
+	padding-right: 8px;
+	-moz-border-radius: 0 4px 4px 0;
+	-webkit-border-radius: 0 4px 4px 0;
+}
+
+.osimo_memberlist-controls li:last-child:hover{
+	background-color: #b2b2b2;
+}
+
+#osimo_bbhelpbox{ margin: 0; padding: 0; }
+
+#osimo-bbcode-help,#osimo_usercpbox{
+	overflow: auto;
+	margin: 0;
+	padding: 0 0 0 0;
+}
+
+#osimo-bbcode-help h4{
+	margin: 5px;
+}
+
+.osimo-bbcode-table{
+	width: 97%;
+	font-size: 14px;
+	margin: 0 auto 10px auto;
+}
+
+.osimo-bbcode-table td{
+	border: 1px #555555 solid;
+	padding: 5px;
+}
+
+.osimo-bbcode-table tr:hover>td{
+	background-color: #e6e6e6;
+}
+
+.osimo-bbcode-table blockquote{
+	margin: 5px 20px 0px 20px;
+	padding: 8px;
+	border-left: 2px #c4c4c4 solid;
+	background-color: #666666;
+	color: #f2f2f2;
+}
+
+.bbhelp-blockquote-title{
+	display: block;
+	font-size: 12px;
+	padding: 4px 0 4px 5px;
+	margin: -4px 0 -10px 0;
+	width: 95%;
+	background-color: #555555;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	color: #f2f2f2;
+}
+
+#osimo_forgotpasswordbox{
+	padding: 0;
+	margin: 0;
+	overflow:auto;
+}
+
+#osimo_forgotpasswordbox>p{
+	text-align: center;
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+#osimo_forgotpassword h3{
+	color: #555555;
+	padding: 10px 0 5px 10px;
+	font-family: Georgia, Verdana, Arial;
+}
+
+#osimo_forgotpassword p{
+	font-size: 14px;
+	padding: 0 20px 15px 20px;
+}
+
+#osimo_forgotpassword_left{
+	float: left;
+	width: 220px;
+	margin-left: 20px !important;
+	padding: 10px;
+	background-color: #e6e6e6;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#osimo_forgotpassword_right{
+	float: right;
+	width:220px;
+	margin-right: 20px !important;
+	padding: 10px;
+	background-color: #e6e6e6;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.osimo_forgotpassword_wrap{
+	width: 500px;
+	background-color: #e6e6e6;
+	margin: 5px auto;
+	padding: 5px 0 10px 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.osimo_forgotpassword_wrap .osimo-input-field{
+	width: 450px;
+	margin: 0 0 0 20px !important;
+}
+
+.osimo_forgotpassword_wrap .osimo-input-label{
+	margin-left: 20px !important;
+}
+
+#osimo_forgotpassword h4{
+	text-align: center;
+	color: #555555;
+	font-size: 16px;
+	font-family: Georgia, Verdana, Arial;
+}
+
+.osimo-input-label{
+	padding: 5px 0 0 0 !important;
+	margin: 0 !important;
+	font-size: 12px !important;
+}
+
+.osimo-input-field{
+	margin-top: 0px !important;
+}
+
+.osimo-submit-button{
+	margin: 30px 0 0 230px;
+}
+
+.osimo_usercp_dropdown{
+	width: 650px;
+	height: 40px;
+	background-color: #555555;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin: 10px auto 0 auto;
+	cursor: pointer;
+}
+
+.osimo_usercp_dropdown p{
+	color: #f8f8f8;
+	font-size: 16px;
+	font-family: Georgia, Verdana, Arial, sans-serif;
+	padding: 9px 0 0 15px;
+}
+
+.osimo_usercp_dropdown img{
+	float: left;
+	margin: 11px 5px 0 10px;
+}
+
+#osimo_usercp_personal{
+	width: 470px;
+	margin: 0 auto;
+	padding: 10px 20px 20px 80px;
+	font-size: 14px;
+	background-color: #e8e8e8;
+	-moz-border-radius: 0 0 10px 10px;
+	-webkit-border-radius: 0 0 10px 10px;
+}
+
+#osimo_usercp_personal h4{
+	margin: 10px 0 0 -5px;
+}
+
+.osimo-usercp-input-field input{
+	width: 400px;
+	height: 28px;
+	font-size: 22px;
+	border: 2px #d2d2d2 solid;
+	color: #555555;
+	padding-left: 5px;
+}
+
+.osimo-usercp-submit{
+	margin: 20px 0 10px 130px;
+	display: block;
+	width: 150px;
+	height: 30px;
+	border: 1px #d8516d solid;
+	background-color: #51a0d8;
+	color: #f8f8f8;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size: 16px;
+}

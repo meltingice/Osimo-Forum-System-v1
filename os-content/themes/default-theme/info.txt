@@ -1,0 +1,6 @@
+title: Osimo Default Theme
+author: MeltingIce and Retro_X
+description: A clean, standard Osimo theme.
+version: 0.5b
+release date: 10/29/08
+other info: This theme is included with Osimo

@@ -1,0 +1,74 @@
+body {
+	background: #242424;
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrap{
+	width: 348px;
+	margin: 100px auto;
+}
+
+#login-logo{
+	width: 234px;
+	height: 82px;
+	margin: 0 auto 0 auto;
+	background: url(img/login-logo.png) no-repeat;
+}
+
+#login-wrap{
+	width: 348px;
+	background-color: #f8f8f8;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	overflow: hidden;
+}
+
+#login-form{
+	padding: 10px 0 10px 0;
+}
+
+.input-label{
+	font-weight: bold;
+	margin: 0 0 0 10px;
+	color: #444444;
+}
+
+.input-field{
+	margin: 0 0 20px 10px;
+}
+
+.input-field input{
+	height: 44px;
+	width: 328x;
+	background-color: #ffffff;
+	border: none;
+	font-size: 34px;
+	padding-left: 40px;
+	color: #f1f1f1;
+}
+
+#osimo_username{
+	background: url(img/login-field-bg1.png) left no-repeat transparent;
+}
+
+#osimo_password{
+	background: url(img/login-field-bg2.png) left no-repeat transparent;
+}
+
+#login-button{
+	float: right;
+	margin: 0px 11px 10px 0;
+	background-color: #478dbe;
+	border: 1px #666666 solid;
+	font-size: 16px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	color: #ffffff;
+	padding: 3px 8px 3px 8px;
+}
+
+#login-button:hover{
+	border: 1px #e45573 solid;
+	background-color: #4c9cd4;
+}

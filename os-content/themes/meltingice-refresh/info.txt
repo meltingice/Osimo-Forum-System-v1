@@ -1,0 +1,6 @@
+title: Refresh
+author: MeltingIce
+description: A clean, refreshing theme.
+version: 0.1b
+release date: n/a
+other info: This theme is included with Osimo.
